@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color:  #bba4bd;
+   
+}
+body{
+    background-color:#05001b;
+}
+.img{
+    width: 20%;
+    margin-left: 38%;
+    margin-top: -3%;
+}
+.imgg{
+    opacity: 20%;
+    width: 40%;
+    transform: rotate(50deg); 
+    margin-left: 50%;
+    margin-top: -25%;
+}
+.imga{
+    opacity: 20%;
+    width: 40%;
+    transform: rotate(-50deg); 
+    margin-left: 6%;
+    margin-top: -45%;
+}
+/*button de connexion*/
+button{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: -0%;
+}
+
+.Connexion{
+    color: rgb(235, 180, 109);
+    border: solid rgb(235, 180, 109);
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
+    border-radius: 50% 20%;
+    text-align: center;
+    margin-top: -3%;
+    background: rgba(242, 56, 90, 0.05);
+    box-shadow: inset 2px 2px 5px 0 #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+}
+.inscription{
+    width: 10%;
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;
+    border-radius: 50% 20%;
+    margin-top: -9%;
+    margin-left: 35%;
+  
+
+}
+/*positioné tt la section*/
+    .contacte{
+        margin-left: 30%;
+        margin-top: -15%;
+    }
+    /**ecrire mail.....*/
+    
+    .conta{
+    display: block; 
+    margin-top: 1em;
+    margin-left: 0%;
+    width: 50%;
+    background: rgba(242, 56, 90, 0.05);
+    box-shadow: inset 2px 2px 5px 0 #DADADA;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    padding: 1em;
+    color: #3d293f;
+    text-indent: 10%;
+    }
+ 
+    /*envoyer*/
+    .submit {
+    text-align: center;
+    width: 13%;
+    height: 50px;
+    margin-top: 1em;
+    margin-bottom: 6px;
+    background: #3d293f;
+    color:  rgb(235, 180, 109);
+    margin-left: 20%;
+    border: none;
+     border-radius: 20% 0%;
+    box-shadow: 1px 1px 0 0 #3d293f,2px 2px 0 0  #3d293f,3px 3px 0 0  #3d293f;
+    
+    }
+
+    
+   /*Footer blanc*/
+    h4{
+        color: rgb(235, 180, 109);
+        background-color: #e7e7e7;
+        border: solid rgb(235, 180, 109);
+        font-size: 30px;
+        margin-top: 6%;
+        font-family: "Sofia", sans-serif;
+        border-radius: 20% 0%;
+        text-align: center;
+    
+    }
+   
+    
+    /**********responsive*******************/
+@media screen and (max-width: 800px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+
+
+}
